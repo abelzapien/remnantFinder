@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141b2d" />
+      <stop offset="55%" stop-color="#0d121f" />
+      <stop offset="100%" stop-color="#080b13" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Tactical Shield Base -->
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="6" />
+  <rect x="22" y="22" width="212" height="212" rx="44" fill="none" stroke="#f59e0b" stroke-opacity="0.28" stroke-width="2" />
+
+  <!-- Outer Radar Ring -->
+  <circle cx="128" cy="128" r="82" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="14 8" />
+  <circle cx="128" cy="128" r="62" fill="#0f172a" fill-opacity="0.7" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="2.5" />
+
+  <!-- Cardinal Compass Ticks -->
+  <line x1="128" y1="30" x2="128" y2="52" stroke="url(#amberGrad)" stroke-width="6" stroke-linecap="round" />
+  <line x1="128" y1="204" x2="128" y2="226" stroke="#64748b" stroke-width="5" stroke-linecap="round" />
+  <line x1="30" y1="128" x2="52" y2="128" stroke="#64748b" stroke-width="5" stroke-linecap="round" />
+  <line x1="204" y1="128" x2="226" y2="128" stroke="url(#cyanGrad)" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Central Geometric Loot Prism (Original Octahedral Gem) -->
+  <polygon points="128,64 176,128 128,192 80,128" fill="url(#amberGrad)" />
+  <polygon points="128,64 176,128 128,128" fill="#fde68a" fill-opacity="0.42" />
+  <polygon points="128,128 176,128 128,192" fill="#9a3412" fill-opacity="0.45" />
+  <polygon points="128,64 80,128 128,128" fill="#fef3c7" fill-opacity="0.22" />
+  <polygon points="128,64 176,128 128,192 80,128" fill="none" stroke="#fffbeb" stroke-opacity="0.7" stroke-width="3" stroke-linejoin="round" />
+
+  <!-- Inner Core Beacon -->
+  <circle cx="128" cy="128" r="13" fill="#0b0f19" stroke="#38bdf8" stroke-width="4" />
+  <circle cx="128" cy="128" r="5" fill="#38bdf8" />
+
+  <!-- Detected Loot Blips (Gold / Synergy / Waypoint) -->
+  <circle cx="178" cy="78" r="9" fill="#fbbf24" stroke="#0b0f19" stroke-width="3" />
+  <circle cx="78" cy="176" r="7" fill="#c084fc" stroke="#0b0f19" stroke-width="2.5" />
+</svg>
