@@ -6,6 +6,10 @@ Distribuido gratuitamente bajo licencia **GNU GPL-3.0**.
 - **Desarrollado por:** `Choppx`
 - **Apoyar el proyecto:** [https://ko-fi.com/choppx](https://ko-fi.com/choppx)
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Remnant 2 Build & Loot Overseer Demo Showcase" width="100%" />
+</p>
+
 ---
 
 ## Características Principales (v1.0)

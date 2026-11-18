@@ -460,3 +460,4 @@ BuildLootOverseer.Frontend/dist/
 data/ref_cs/
 data/translation_batches/
 data/analyzer_db_raw.json
+media/*.webm
